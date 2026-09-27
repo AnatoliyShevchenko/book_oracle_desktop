@@ -1,0 +1,67 @@
+name: book_oracle
+description: "Book Oracle — колода из вашего списка книг."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  window_manager: ^0.5.2
+  flutter_riverpod: ^3.4.3
+  http: ^1.6.0
+  csv: ^8.0.0
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+  file_picker: ^13.1.0
+  url_launcher: ^6.3.2
+  audioplayers: ^6.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/design_tokens.json
+    - assets/images/backs/
+    - assets/images/backgrounds/
+    - assets/sounds/
+
+  fonts:
+    # Variable fonts: the weight axis is driven by FontVariation in code
+    # (see AppFonts.style); a single file covers every weight we use.
+    - family: Unbounded
+      fonts:
+        - asset: assets/fonts/Unbounded-VF.ttf
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-VF.ttf
+    - family: Cormorant Garamond
+      fonts:
+        - asset: assets/fonts/CormorantGaramond-VF.ttf
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-VF.ttf
+    # Static faces.
+    - family: Old Standard TT
+      fonts:
+        - asset: assets/fonts/OldStandardTT-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OldStandardTT-Bold.ttf
+          weight: 700
+    - family: Prata
+      fonts:
+        - asset: assets/fonts/Prata-Regular.ttf
+          weight: 400
+    - family: Yeseva One
+      fonts:
+        - asset: assets/fonts/YesevaOne-Regular.ttf
+          weight: 400

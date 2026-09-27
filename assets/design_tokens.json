@@ -1,0 +1,92 @@
+{
+  "decks": {
+    "graphite": {
+      "name": "Графит", "dark": true,
+      "fonts": { "display": "Unbounded", "body": "Onest" },
+      "colors": {
+        "bg": "#141517", "surface": "#1D1F22", "surface2": "#2A2D31",
+        "line": "#ECEAE417", "line2": "#ECEAE433",
+        "text": "#ECEAE4", "muted": "#A3A09A",
+        "accent": "#E8A33D", "accentInk": "#1A1408", "accentSoft": "#E8A33D24", "accentGlow": "#E8A33D73",
+        "glow": "#E8A33D1A", "scrim": "#0E0F10F0",
+        "ok": "#7BC99A", "error": "#F08A6C"
+      },
+      "back": { "type": "pattern", "base": "#1D1F22", "lines": "#E8A33D33", "frame": "#E8A33DB3", "emblem": "diamond", "emblemStroke": "#E8A33D", "step": 9 }
+    },
+    "coven": {
+      "name": "Ковен", "dark": true,
+      "fonts": { "display": "Cormorant Garamond", "body": "Manrope" },
+      "colors": {
+        "bg": "#0F0D12", "surface": "#1A1620", "surface2": "#2C2434",
+        "line": "#C9A45C29", "line2": "#C9A45C66",
+        "text": "#F1E8D6", "muted": "#B3A8BF",
+        "accent": "#C9A45C", "accentInk": "#1B1622", "accentSoft": "#C9A45C21", "accentGlow": "#C9A45C80",
+        "glow": "#C98C4624", "scrim": "#0E0A12F0",
+        "ok": "#9DD3A8", "error": "#E89A8A"
+      },
+      "back": { "type": "images", "files": ["assets/images/backs/coven_1.jpg", "assets/images/backs/coven_2.jpg", "assets/images/backs/coven_3.jpg"], "fallback": "#1A2033" }
+    },
+    "library": {
+      "name": "Библиотека", "dark": true,
+      "fonts": { "display": "Old Standard TT", "body": "Onest" },
+      "colors": {
+        "bg": "#1E1712", "surface": "#2A2019", "surface2": "#3D2F24",
+        "line": "#C8964E29", "line2": "#C8964E66",
+        "text": "#F0E4CC", "muted": "#BFAE92",
+        "accent": "#C8964E", "accentInk": "#1E1712", "accentSoft": "#C8964E21", "accentGlow": "#C8964E80",
+        "glow": "#D6964624", "scrim": "#18120EF0",
+        "ok": "#A8CF9A", "error": "#E89A7E"
+      },
+      "back": { "type": "images", "files": ["assets/images/backs/library_1.jpg", "assets/images/backs/library_2.jpg"], "fallback": "#3A2A1E" }
+    },
+    "paper": {
+      "name": "Бумага", "dark": false,
+      "fonts": { "display": "Prata", "body": "Onest" },
+      "colors": {
+        "bg": "#ECE6DA", "surface": "#F8F4EC", "surface2": "#E1D9CA",
+        "line": "#1E1B161A", "line2": "#1E1B1638",
+        "text": "#1E1B16", "muted": "#5A5347",
+        "accent": "#B0391F", "accentInk": "#FFF8F0", "accentSoft": "#B0391F17", "accentGlow": "#B0391F4D",
+        "glow": "#FFFCF4CC", "scrim": "#ECE6DAF2",
+        "ok": "#2F6B4F", "error": "#A3321A"
+      },
+      "back": { "type": "pattern", "base": "#F4EEE2", "lines": "#B0391F52", "frame": "#B0391F", "emblem": "diamond", "emblemFill": "#F8F4EC", "emblemStroke": "#B0391F", "step": 6 }
+    },
+    "garden": {
+      "name": "Сад", "dark": false,
+      "fonts": { "display": "Yeseva One", "body": "Onest" },
+      "colors": {
+        "bg": "#DCE2D2", "surface": "#F2F4EC", "surface2": "#CCD5C0",
+        "line": "#1C2A1F1A", "line2": "#1C2A1F38",
+        "text": "#1C2A1F", "muted": "#4A584C",
+        "accent": "#2F6B4F", "accentInk": "#F2F4EC", "accentSoft": "#2F6B4F1A", "accentGlow": "#2F6B4F59",
+        "glow": "#F6F8EED9", "scrim": "#DCE2D2F2",
+        "ok": "#2F6B4F", "error": "#A3321A"
+      },
+      "back": { "type": "pattern", "base": "#2F6B4F", "dots": "#F2F4EC66", "dotStep": 11, "frame": "#F2F4ECBF", "emblem": "circle", "emblemStroke": "#F2F4EC" }
+    }
+  },
+  "backgrounds": {
+    "glow":   { "name": "Свечение",   "type": "animated" },
+    "autumn": { "name": "Осень",      "type": "image", "file": "assets/images/backgrounds/autumn.jpg" },
+    "winter": { "name": "Зима",       "type": "image", "file": "assets/images/backgrounds/winter.jpg" },
+    "spring": { "name": "Весна",      "type": "image", "file": "assets/images/backgrounds/spring.jpg" },
+    "summer": { "name": "Лето",       "type": "image", "file": "assets/images/backgrounds/summer.jpg" },
+    "plain":  { "name": "Однотонный", "type": "color" },
+    "custom": { "name": "Своё изображение", "type": "file" }
+  },
+  "autoCardColors": [
+    ["#2B2D5C", "#E9D9A6"], ["#7A3B2E", "#F3E2C4"], ["#1F3A34", "#E6DDC6"], ["#4E5C3E", "#F4EBD8"],
+    ["#C7863A", "#2A1A10"], ["#3D1F2B", "#E8C9B0"], ["#3E4A3D", "#D9E0C8"], ["#6B1420", "#F0DCC8"],
+    ["#D8CFC0", "#2A2522"], ["#161616", "#E4E0DA"], ["#4A2F24", "#E7D3AE"], ["#26303F", "#D5DCE6"],
+    ["#8A8F3A", "#1E1F10"], ["#9E6F86", "#23141C"], ["#2F3F6B", "#F0D98A"], ["#C9B48A", "#2C2417"],
+    ["#54606B", "#EDE6DA"], ["#3B6B5E", "#F2E6C9"], ["#1E2A2A", "#CFE0D8"], ["#2A2A2E", "#D8B26A"],
+    ["#5A4632", "#EFE3CC"], ["#B5602A", "#1F130B"], ["#402A52", "#EAD7F0"], ["#7D2F45", "#F4DCC8"]
+  ],
+  "layoutTiers": [
+    { "id": "S",  "maxWidth": 1400, "pad": 20, "panel": 280, "gap": 10, "panelFont": 13 },
+    { "id": "M",  "maxWidth": 1800, "pad": 28, "panel": 320, "gap": 14, "panelFont": 14 },
+    { "id": "L",  "maxWidth": 2200, "pad": 36, "panel": 360, "gap": 16, "panelFont": 15 },
+    { "id": "XL", "maxWidth": null, "pad": 48, "panel": 420, "gap": 20, "panelFont": 17 }
+  ]
+}
